@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="img/ufc-logo1.png">
+    <link rel="stylesheet" href="css/style.css">
     <title>UFC ACADEMY</title>
 </head>
 <body>
@@ -19,5 +20,87 @@
         </nav>
     </header>
     
+    <h1>Buscar Inscrito</h1>
+
+    <div id="infomessage">
+        <!--menssagem-->
+    </div>
+    <form>
+        <fieldset>
+
+            <legend>Parâmetros da Pesquisa</legend>
+
+            <label for="id">ID</label>
+            <input type="text" name="id" id="id">
+
+            <label for="nome">Nome</label>
+            <input type="text" name="nome" id="nome">
+
+            <label for="rg">RG</label>
+            <input type="text" name="rg" id="rg">
+
+            <label for="fone">Telefone</label>
+            <input type="fone" name="fone" id="fone">
+
+        </fieldset>
+
+        <input type="submit" value="Pesquisar">
+    </form>
+
+    <table>
+        <tr>
+            <th>ID</th>
+            <th>Nome</th>
+            <th>RG</th>
+            <th>Email</th>
+            <th>Situação</th>
+            <th>Ações</th>
+        </tr>
+        <tr>
+            <td>100</td>
+            <td>Charles Bronx</td>
+            <td>100100</td>
+            <td>charlesbronx@ufcacademy.com</td>
+            <td>Ativo</td>
+            <td>
+                <input type="button" value="Editar">
+                <input type="button" value="Excluir">
+            </td>
+        </tr>
+        <tr>
+            <td>200</td>
+            <td>Jon Jones</td>
+            <td>100200</td>
+            <td>jonjones@ufcacademy.com</td>
+            <td>Ativo</td>
+            <td>
+                <input type="button" value="Editar">
+                <input type="button" value="Excluir">
+            </td>
+        </tr>
+        <tr>
+            <td>300</td>
+            <td>Fat Joe</td>
+            <td>100300</td>
+            <td>fatjoe@ufcacademy.com</td>
+            <td>Pendente</td>
+            <td>
+                <input type="button" value="Editar">
+                <input type="button" value="Excluir">
+            </td>
+        </tr>
+        <tr>
+            <td>400</td>
+            <td>Florentina Rosa</td>
+            <td>100400</td>
+            <td>florentinarosa@ufcacademy.com</td>
+            <td>Pendente</td>
+            <td>
+                <input type="button" value="Editar">
+                <input type="button" value="Excluir">
+            </td>
+        </tr>
+    </table>
+
 </body>
 </html>

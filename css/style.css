@@ -1,0 +1,13 @@
+header {
+    background-color: rgb(43, 205, 226);
+}
+
+header img {
+    width: 300px;
+}
+
+header a {
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    
+}

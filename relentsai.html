@@ -19,8 +19,8 @@
             <a href="sitinscrito.html">Situação do inscrito</a>        
         </nav>
     </header>
-
-    <h1>Situação do Inscrito</h1>
+    
+    <h1>Entrada e Saída</h1>
 
     <div id="infomessage">
         <!--menssagem-->
@@ -30,62 +30,56 @@
 
             <legend>Pesquisar</legend>
 
-            <label for="situacao">Situação</label>
-            <select name="situacao" id="situacao">
-                <option>Ativo</option>
-                <option>Inativo</option>
-                <option>Pendente</option>
-            </select>
+            <label for="id">ID</label>
+            <input type="text" name="id" id="id">
+
+            <label for="dataInicial">Data Inicial</label>
+            <input type="date" name="dataInicial" id="dataInicial">
+
+            <label for="dataFinal">Data Final</label>
+            <input type="date" name="dataFinal" id="dataFinal">
 
         </fieldset>
 
-        <input type="submit" value="Ver Situação">
+        <input type="submit" value="Gerar Relatório">
     </form>
 
     <table>
         <tr>
             <th>ID</th>
             <th>Nome</th>
-            <th>Situação</th>
-            <th>Telefone</th>
-            <th>Ações</th>
+            <th>Entrada</th>
+            <th>Saída</th>
+            <th>Duração</th>
         </tr>
         <tr>
             <td>100</td>
             <td>Charles Bronx</td>
-            <td>Ativo</td>
-            <td>(94) 99199-9199</td>
-            <td>
-                <input type="button" value="Editar">
-            </td>
+            <td>12/05/2022 - 14hrs</td>
+            <td>12/05/2022 - 16hrs</td>
+            <td>2hrs</td>
         </tr>
         <tr>
             <td>200</td>
             <td>Jon Jones</td>
-            <td>Ativo</td>
-            <td>(94) 99299-9299</td>
-            <td>
-                <input type="button" value="Editar">
-            </td>
+            <td>12/05/2022 - 21hrs</td>
+            <td>12/05/2022 - 22:30hrs</td>
+            <td>1:30hrs</td>
         </tr>
         <tr>
             <td>300</td>
             <td>Fat Joe</td>
-            <td>Pendente</td>
-            <td>(94) 99399-9399</td>
-            <td>
-                <input type="button" value="Editar">
-            </td>
+            <td>12/05/2022 - 5:30hrs</td>
+            <td>12/05/2022 - 7:30hrs</td>
+            <td>2hrs</td>
         </tr>
         <tr>
             <td>400</td>
             <td>Florentina Rosa</td>
-            <td>Pendente</td>
-            <td>(94) 99499-9499</td>
-            <td>
-                <input type="button" value="Editar">
-            </td>
+            <td>12/05/2022 - 10hrs</td>
+            <td>12/05/2022 - 11hrs</td>
+            <td>1hr</td>
         </tr>
-    
+
 </body>
 </html>
