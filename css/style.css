@@ -1,13 +1,32 @@
 header {
-    background-color: rgb(43, 205, 226);
+    background-color: rgb(237, 14, 14);
+    margin-top: 0;
+    height: 120px;
+    width: 100%;
+    border-radius: 0 15px 0 15px;
+
 }
 
 header img {
     width: 300px;
+    margin-left: 30px;
+    margin-top: 10px;
+    position: fixed;
 }
 
-header a {
-    font-size: 30px;
-    color: rgb(0, 0, 0);
-    
+nav {
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-top: 25px;
+    margin-right: 80px;
+    float: right;
+}
+
+a {
+    font-size: 40px;
+    padding: 20px;
+    text-decoration: none;
+    color: black;
 }
