@@ -3,8 +3,9 @@ html {
 }
 
 body {
-    background-color: red ;
+    background-image: url(../img/back-ufc.jpg);
     font-weight: bold;
+    font-style: italic;
 }
 
 nav {
@@ -30,6 +31,13 @@ nav a:hover {
     color: gray;
 }
 
+header {
+    background-color: red;
+    height: 120px;
+    border: 2px solid black;
+    border-radius: 0 20px 0 20px;
+}
+
 header img {
     width: 300px;
     margin-left: 30px;
@@ -38,10 +46,10 @@ header img {
 
 h1 {
     text-transform: uppercase;
-    color: rgb(158, 150, 150);
+    color: rgb(0, 0, 0);
     text-align: center;
     font-size: 30px;
-    background-color: white;
+    background-color: rgb(252, 203, 79);
     border-radius: 0 25px 0 25px;
     border: 2px solid black;
     width: 400px;
@@ -52,4 +60,75 @@ h1 {
     margin-left: 30px;
     margin-top: 50px;
     margin-bottom: 50px;
+}
+
+div#infomessage {
+    color: red;
+    text-align: center;
+    opacity: 0.5;
+}
+
+form {
+    width: 90%;
+    margin: 50px;
+}
+
+fieldset {
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 8px;
+    font-size: 20px;
+    margin-bottom: 30px;
+    
+}
+
+legend {
+    background-color: rgb(30, 0, 255);
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 5px;
+    color: white;
+    font-size: 30px;
+}
+
+label {
+    margin-right: 10px;
+    margin-left: 30px;
+}
+
+input, select {
+    border: 1px solid black;
+    margin-bottom: 14px;
+    margin-right: 14px;
+}
+
+select {
+    padding: 5px;
+    margin-left: 5px;
+    font-size: 15px;
+    text-align: center;
+}
+
+input[type=text]#nome, #rua, #email {
+    width: 90%;
+}
+
+input[type=fone]#fone {
+    width: 250px;
+}
+
+input[type=button],
+input[type=submit] {
+    background-color: darkgoldenrod;
+    color: black;
+    width: 150px;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 15px;
+}
+
+input[type=button]:hover,
+input[type=submit]:hover {
+    background-color: rgb(252, 203, 79);
 }
